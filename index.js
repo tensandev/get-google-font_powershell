@@ -2,9 +2,8 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
-const https = require('https');
+const download = require('download');
 const { promisify } = require('util');
-const download = promisify(require('download-file'));
 
 const API_KEY = 'AIzaSyBixxHrUlXnxvqnE96px8ZaynxCwG0xKp8';
 const API_URL = `https://www.googleapis.com/webfonts/v1/webfonts?key=${API_KEY}`;
