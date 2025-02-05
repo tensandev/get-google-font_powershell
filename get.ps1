@@ -1,9 +1,9 @@
 # Set Google Fonts API key
-$API_KEY = "AIzaSyBixxHrUlXnxvqnE96px8ZaynxCwG0xKp8"
+$API_KEY = ""
 $API_URL = "https://www.googleapis.com/webfonts/v1/webfonts?key=$API_KEY"
 
 # Set output directory for fonts
-$OUTPUT_DIR = "C:\Users\TUF_Desktop_Yama\OneDrive\get_googlefonts"
+$OUTPUT_DIR = "!! CHANGE HERE !!"
 
 # Create directory if it doesn't exist
 if (-not (Test-Path -Path $OUTPUT_DIR)) {
